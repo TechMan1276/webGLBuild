@@ -1,0 +1,10 @@
+image: alpine:latest
+
+pages:
+  script:
+    - echo "GitLab Pages deploy"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
